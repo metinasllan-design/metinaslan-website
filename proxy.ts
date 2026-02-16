@@ -12,15 +12,8 @@ export function proxy(request: NextRequest) {
 
   if (pathnameHasLocale) return;
 
-  const acceptLanguage = request.headers.get("accept-language") || "";
-  const locale = acceptLanguage.toLowerCase().includes("es")
-    ? "es"
-    : acceptLanguage.toLowerCase().includes("en")
-      ? "en"
-      : defaultLocale;
-
   return NextResponse.redirect(
-    new URL(`/${locale}${pathname}`, request.url)
+    new URL(`/${defaultLocale}${pathname}`, request.url)
   );
 }
 

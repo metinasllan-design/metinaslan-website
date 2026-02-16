@@ -28,14 +28,14 @@ const dictionaries = {
     about: {
       heading: "Sobre Mí",
       p1: "Soy Metin Aslan, consultor especializado en la intersección entre las finanzas y la tecnología. Graduado en Economía por la Universidad Koç y con un Máster en Transformación Digital en los Negocios por ESEI/UCAM (España), cuento con más de 5 años de experiencia internacional.",
-      p2: "Mi trayectoria incluye auditoría financiera en una Big 4 (EY) y gestión de departamentos contables en Reino Unido y EE.UU. Esta experiencia me permite identificar ineficiencias administrativas críticas. Desde agosto de 2025 opero como consultor autónomo en España, desarrollando soluciones de automatización con IA y herramientas No-Code (n8n, Make, Google Workspace) para PYMES.",
+      p2: "Mi trayectoria incluye auditoría financiera en una Big 4 (EY) y gestión de departamentos contables en Reino Unido y EE.UU. Esta experiencia me permite identificar ineficiencias administrativas críticas. Desde enero de 2026 opero como consultor autónomo en España, desarrollando soluciones de automatización con IA y herramientas No-Code (n8n, Make, Google Workspace) para PYMES.",
       p3: "Ofrezco micro-automatizaciones ágiles y económicas que democratizan el acceso a la Inteligencia Artificial para el pequeño empresario, permitiendo aumentar la capacidad de trabajo sin contratar más personal administrativo.",
       credentials: [
         { label: "EY (Ernst & Young)", detail: "Auditoría Financiera" },
         { label: "Universidad Koç", detail: "Grado en Economía" },
         { label: "ESEI / UCAM", detail: "Máster en Transformación Digital" },
         { label: "+5 años", detail: "Experiencia Internacional (UK, USA, ES)" },
-        { label: "Autónomo en España", detail: "Desde agosto 2025" },
+        { label: "Autónomo en España", detail: "Desde enero 2026" },
       ],
     },
     differentiators: {
@@ -109,7 +109,7 @@ const dictionaries = {
         {
           title: "Arquitectura de Automatización",
           description:
-            "Diseño de soluciones a medida con tecnologías No-Code (Make, n8n) que conectan tus herramientas (Gmail, Excel, CRMs) con modelos de IA (OpenAI, Gemini).",
+            "Diseño de soluciones a medida con tecnologías No-Code (Make, n8n) que conectan tus herramientas (Gmail, Excel, CRMs) con modelos de IA (OpenAI, Claude, Gemini).",
         },
         {
           title: "Desarrollo e Implementación",
@@ -456,14 +456,14 @@ const dictionaries = {
     about: {
       heading: "About Me",
       p1: "I'm Metin Aslan, a consultant specializing in the intersection of finance and technology. I hold a degree in Economics from Koç University and a Master's in Digital Business Transformation from ESEI/UCAM (Spain), with over 5 years of international experience.",
-      p2: "My background includes financial auditing at a Big 4 (EY) and managing accounting departments in the UK and USA. This experience allows me to identify critical administrative inefficiencies. Since August 2025 I have been operating as an independent consultant in Spain, developing automation solutions with AI and No-Code tools (n8n, Make, Google Workspace) for SMEs.",
+      p2: "My background includes financial auditing at a Big 4 (EY) and managing accounting departments in the UK and USA. This experience allows me to identify critical administrative inefficiencies. Since January 2026 I have been operating as an independent consultant in Spain, developing automation solutions with AI and No-Code tools (n8n, Make, Google Workspace) for SMEs.",
       p3: "I offer agile, affordable micro-automations that democratize access to Artificial Intelligence for small businesses, enabling increased capacity without hiring additional administrative staff.",
       credentials: [
         { label: "EY (Ernst & Young)", detail: "Financial Auditing" },
         { label: "Koç University", detail: "Economics Degree" },
         { label: "ESEI / UCAM", detail: "Master's in Digital Transformation" },
         { label: "+5 years", detail: "International Experience (UK, USA, ES)" },
-        { label: "Autonomo in Spain", detail: "Since August 2025" },
+        { label: "Autonomo in Spain", detail: "Since January 2026" },
       ],
     },
     differentiators: {
@@ -537,7 +537,7 @@ const dictionaries = {
         {
           title: "Automation Architecture",
           description:
-            "Design of tailored solutions with No-Code technologies (Make, n8n) that connect your tools (Gmail, Excel, CRMs) with AI models (OpenAI, Gemini).",
+            "Design of tailored solutions with No-Code technologies (Make, n8n) that connect your tools (Gmail, Excel, CRMs) with AI models (OpenAI, Claude, Gemini).",
         },
         {
           title: "Development & Implementation",
