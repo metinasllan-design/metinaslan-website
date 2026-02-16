@@ -28,14 +28,13 @@ const dictionaries = {
     about: {
       heading: "Sobre Mí",
       p1: "Soy Metin Aslan, consultor especializado en la intersección entre las finanzas y la tecnología. Graduado en Economía por la Universidad Koç y con un Máster en Transformación Digital en los Negocios por ESEI/UCAM (España), cuento con más de 5 años de experiencia internacional.",
-      p2: "Mi trayectoria incluye auditoría financiera en una Big 4 (EY) y gestión de departamentos contables en Reino Unido y EE.UU. Esta experiencia me permite identificar ineficiencias administrativas críticas. Desde enero de 2026 opero como consultor autónomo en España, desarrollando soluciones de automatización con IA y herramientas No-Code (n8n, Make, Google Workspace) para PYMES.",
+      p2: "Mi trayectoria incluye auditoría financiera en una Big 4 (EY) y gestión de departamentos contables en Reino Unido y EE.UU. Esta experiencia me permite identificar ineficiencias administrativas críticas. Opero como consultor autónomo en España, desarrollando soluciones de automatización con IA y herramientas No-Code (n8n, Make, Google Workspace) para PYMES.",
       p3: "Ofrezco micro-automatizaciones ágiles y económicas que democratizan el acceso a la Inteligencia Artificial para el pequeño empresario, permitiendo aumentar la capacidad de trabajo sin contratar más personal administrativo.",
       credentials: [
         { label: "EY (Ernst & Young)", detail: "Auditoría Financiera" },
         { label: "Universidad Koç", detail: "Grado en Economía" },
         { label: "ESEI / UCAM", detail: "Máster en Transformación Digital" },
         { label: "+5 años", detail: "Experiencia Internacional (UK, USA, ES)" },
-        { label: "Autónomo en España", detail: "Desde enero 2026" },
       ],
     },
     differentiators: {
@@ -169,31 +168,31 @@ const dictionaries = {
       resultLabel: "Resultado",
       items: [
         {
-          sector: "Gestoría / Asesoría fiscal",
+          sector: "Servicios Fiscales (EE.UU.)",
           challenge:
-            "Ingesta manual de facturas y documentos de múltiples clientes.",
+            "Preparación manual de declaraciones de impuestos y conversión de datos.",
           solution:
-            "Sistema que clasifica, extrae datos y distribuye documentos automáticamente.",
-          metric: "~12h/semana",
-          metricLabel: "ahorradas",
+            "Sistema automatizado de extracción de datos, conversión a hoja de cálculo y generación de formularios fiscales.",
+          metric: "100%",
+          metricLabel: "automatizado",
         },
         {
-          sector: "Taller de restauración de muebles",
+          sector: "Consultoría (Turquía)",
           challenge:
-            "Búsqueda de oportunidades comerciales y elaboración manual de presupuestos.",
+            "Seguimiento manual de reuniones con clientes y recordatorios.",
           solution:
-            "Motor de búsqueda de oportunidades y automatización de presupuestos.",
-          metric: "3x",
-          metricLabel: "más rápido",
+            "Implementación de CRM automatizado para seguimiento de reuniones y alertas de follow-up.",
+          metric: "0",
+          metricLabel: "olvidos",
         },
         {
-          sector: "Empresa de logística y transporte",
+          sector: "Restauración de Muebles (BCN)",
           challenge:
-            "Flujos intensivos de papel: albaranes, cartas de porte, facturas.",
+            "Búsqueda manual de clientes y demanda en el mercado.",
           solution:
-            "Automatización de la digitalización y procesamiento de documentos.",
-          metric: "80%",
-          metricLabel: "menos papel",
+            "Agente de IA que rastrea la demanda online y envía alertas de clientes potenciales por email.",
+          metric: "Lead Gen",
+          metricLabel: "automático",
         },
       ],
     },
@@ -456,14 +455,13 @@ const dictionaries = {
     about: {
       heading: "About Me",
       p1: "I'm Metin Aslan, a consultant specializing in the intersection of finance and technology. I hold a degree in Economics from Koç University and a Master's in Digital Business Transformation from ESEI/UCAM (Spain), with over 5 years of international experience.",
-      p2: "My background includes financial auditing at a Big 4 (EY) and managing accounting departments in the UK and USA. This experience allows me to identify critical administrative inefficiencies. Since January 2026 I have been operating as an independent consultant in Spain, developing automation solutions with AI and No-Code tools (n8n, Make, Google Workspace) for SMEs.",
+      p2: "My background includes financial auditing at a Big 4 (EY) and managing accounting departments in the UK and USA. This experience allows me to identify critical administrative inefficiencies. I operate as an independent consultant in Spain, developing automation solutions with AI and No-Code tools (n8n, Make, Google Workspace) for SMEs.",
       p3: "I offer agile, affordable micro-automations that democratize access to Artificial Intelligence for small businesses, enabling increased capacity without hiring additional administrative staff.",
       credentials: [
         { label: "EY (Ernst & Young)", detail: "Financial Auditing" },
         { label: "Koç University", detail: "Economics Degree" },
         { label: "ESEI / UCAM", detail: "Master's in Digital Transformation" },
         { label: "+5 years", detail: "International Experience (UK, USA, ES)" },
-        { label: "Autonomo in Spain", detail: "Since January 2026" },
       ],
     },
     differentiators: {
@@ -597,31 +595,31 @@ const dictionaries = {
       resultLabel: "Result",
       items: [
         {
-          sector: "Accounting firm / Tax advisory",
+          sector: "Tax Services (USA)",
           challenge:
-            "Manual intake of invoices and documents from multiple clients.",
+            "Manual preparation of tax returns and data conversion.",
           solution:
-            "System that classifies, extracts data and distributes documents automatically.",
-          metric: "~12h/week",
-          metricLabel: "saved",
+            "Automated system for data extraction, spreadsheet conversion, and tax form generation.",
+          metric: "100%",
+          metricLabel: "automated",
         },
         {
-          sector: "Furniture restoration workshop",
+          sector: "Consulting (Turkey)",
           challenge:
-            "Search for business opportunities and manual quote preparation.",
+            "Manual tracking of client meetings and follow-up reminders.",
           solution:
-            "Opportunity search engine and quote automation.",
-          metric: "3x",
-          metricLabel: "faster",
+            "Implementation of automated CRM for meeting tracking and follow-up alerts.",
+          metric: "0",
+          metricLabel: "missed follow-ups",
         },
         {
-          sector: "Logistics & transport company",
+          sector: "Furniture Restoration (BCN)",
           challenge:
-            "Paper-intensive flows: delivery notes, waybills, invoices.",
+            "Manual search for clients and market demand.",
           solution:
-            "Automation of document digitization and processing.",
-          metric: "80%",
-          metricLabel: "less paper",
+            "AI agent that tracks online demand and sends email alerts for potential clients.",
+          metric: "Lead Gen",
+          metricLabel: "automated",
         },
       ],
     },
