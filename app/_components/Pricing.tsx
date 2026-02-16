@@ -35,6 +35,49 @@ export default function Pricing({ dict, locale }: PricingProps) {
         <p className="mt-8 text-center text-sm text-muted">
           {dict.pricing.vat}
         </p>
+
+        <div className="mt-16">
+          <h3 className="mb-6 text-xl font-bold">
+            {dict.pricing.comparisonHeading}
+          </h3>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="border-b border-border">
+                  {dict.pricing.comparison.headers.map((h, i) => (
+                    <th
+                      key={h || "empty"}
+                      className={`px-4 py-3 text-left font-medium text-muted ${
+                        i === 1 ? "bg-primary/5" : ""
+                      }`}
+                    >
+                      {h}
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {dict.pricing.comparison.rows.map((row) => (
+                  <tr key={row.label} className="border-b border-border">
+                    <td className="px-4 py-3 font-medium">{row.label}</td>
+                    {row.values.map((val, i) => (
+                      <td
+                        key={val}
+                        className={`px-4 py-3 ${
+                          i === 0
+                            ? "bg-primary/5 font-semibold text-primary"
+                            : "text-muted"
+                        }`}
+                      >
+                        {val}
+                      </td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
       </div>
     </section>
   );

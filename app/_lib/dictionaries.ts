@@ -19,17 +19,87 @@ const dictionaries = {
         "La micro-automatización puede aplicarse en cualquier negocio. Automatizo procesos administrativos con IA y No-Code. Ahorra 10-15 horas semanales sin contratar más personal.",
       cta: "Ver Servicios",
       ctaSecondary: "Contactar",
+      valuePills: [
+        "Desde 250 €",
+        "Entrega en 2-3 semanas",
+        "Sin dependencia tecnológica",
+      ],
     },
     about: {
       heading: "Sobre Mí",
       p1: "Soy Metin Aslan, consultor especializado en la intersección entre las finanzas y la tecnología. Graduado en Economía por la Universidad Koç y con un Máster en Transformación Digital en los Negocios por ESEI/UCAM (España), cuento con más de 5 años de experiencia internacional.",
       p2: "Mi trayectoria incluye auditoría financiera en una Big 4 (EY) y gestión de departamentos contables en Reino Unido y EE.UU. Esta experiencia me permite identificar ineficiencias administrativas críticas. Desde agosto de 2025 opero como consultor autónomo en España, desarrollando soluciones de automatización con IA y herramientas No-Code (n8n, Make, Google Workspace) para PYMES.",
       p3: "Ofrezco micro-automatizaciones ágiles y económicas que democratizan el acceso a la Inteligencia Artificial para el pequeño empresario, permitiendo aumentar la capacidad de trabajo sin contratar más personal administrativo.",
+      credentials: [
+        { label: "EY (Ernst & Young)", detail: "Auditoría Financiera" },
+        { label: "Universidad Koç", detail: "Grado en Economía" },
+        { label: "ESEI / UCAM", detail: "Máster en Transformación Digital" },
+        { label: "+5 años", detail: "Experiencia Internacional (UK, USA, ES)" },
+        { label: "Autónomo en España", detail: "Desde agosto 2025" },
+      ],
+    },
+    differentiators: {
+      heading: "Por Qué Elegirme",
+      subtitle: "Cuatro ventajas competitivas que diferencian mi servicio de las alternativas tradicionales.",
+      items: [
+        {
+          title: "No-Code vs Desarrollo Tradicional",
+          description: "Mis soluciones se entregan en 2-3 semanas, no en 6-12 meses. El coste es hasta un 70% menor que el desarrollo a medida, porque utilizo plataformas No-Code (Make, n8n) en lugar de programación personalizada.",
+          stat: "70%",
+          statLabel: "menor coste",
+        },
+        {
+          title: "IA Generativa Integrada",
+          description: "A diferencia de la automatización rígida (RPA), mis soluciones incorporan modelos de IA que comprenden documentos no estructurados: facturas escaneadas, emails, albaranes escritos a mano.",
+          stat: "IA",
+          statLabel: "generativa",
+        },
+        {
+          title: "Perfil Híbrido: Negocio + Tecnología",
+          description: "Economista, ex-auditor de EY (Big 4) y especialista en transformación digital. Entiendo las ineficiencias operativas porque he trabajado dentro de ellas.",
+          stat: "Big 4",
+          statLabel: "experiencia",
+        },
+        {
+          title: "Independencia del Cliente",
+          description: "Las soluciones se construyen sobre tus propias herramientas (Google Workspace, Excel, tu CRM). Sin dependencia de proveedor. Todo queda bajo tu control.",
+          stat: "100%",
+          statLabel: "tu control",
+        },
+      ],
+    },
+    market: {
+      heading: "La Oportunidad en España",
+      subtitle: "Las PYMES españolas necesitan automatización urgentemente. Los datos del INE y la nueva legislación lo confirman.",
+      stats: [
+        {
+          value: "2,9M+",
+          label: "empresas en España son PYMES",
+          detail: "El 99,8% del tejido empresarial. El 93% son microempresas (<10 empleados). Fuente: INE.",
+        },
+        {
+          value: "12%",
+          label: "de PYMES usan IA o Big Data",
+          detail: "El 88% restante gestiona sus procesos de forma manual o con herramientas básicas. Fuente: ONTSI.",
+        },
+        {
+          value: "31%",
+          label: "han digitalizado procesos",
+          detail: "Casi 7 de cada 10 PYMES todavía operan con flujos de trabajo manuales o en papel.",
+        },
+        {
+          value: "2026",
+          label: "obligación de factura electrónica",
+          detail: "La Ley Crea y Crece obliga a todas las empresas a emitir y recibir facturas electrónicas.",
+        },
+      ],
+      footer: "Fuentes: INE, ONTSI, Ley Crea y Crece (Ley 18/2022), DigitalES.",
     },
     services: {
       heading: "Servicios",
       subtitle:
         "Intervengo en la operativa diaria de tu empresa para sustituir tareas manuales y repetitivas por flujos de trabajo digitales automatizados.",
+      targetNote: "Especializado en microempresas (1-9 empleados) del Vallès Occidental y Área Metropolitana de Barcelona. Sectores prioritarios: logística, gestorías y despachos profesionales.",
       items: [
         {
           title: "Diagnóstico Operativo",
@@ -94,27 +164,36 @@ const dictionaries = {
       heading: "Casos de Éxito",
       subtitle:
         "La micro-automatización funciona en cualquier sector. Ejemplos reales sin nombres de empresa.",
+      challengeLabel: "Problema",
+      solutionLabel: "Solución",
+      resultLabel: "Resultado",
       items: [
         {
           sector: "Gestoría / Asesoría fiscal",
           challenge:
             "Ingesta manual de facturas y documentos de múltiples clientes.",
           solution:
-            "Sistema que clasifica, extrae datos y distribuye documentos automáticamente. Ahorro de horas en tareas repetitivas.",
+            "Sistema que clasifica, extrae datos y distribuye documentos automáticamente.",
+          metric: "~12h/semana",
+          metricLabel: "ahorradas",
         },
         {
           sector: "Taller de restauración de muebles",
           challenge:
             "Búsqueda de oportunidades comerciales y elaboración manual de presupuestos.",
           solution:
-            "Motor de búsqueda de oportunidades y automatización de presupuestos. Respuesta más rápida a clientes potenciales.",
+            "Motor de búsqueda de oportunidades y automatización de presupuestos.",
+          metric: "3x",
+          metricLabel: "más rápido",
         },
         {
           sector: "Empresa de logística y transporte",
           challenge:
             "Flujos intensivos de papel: albaranes, cartas de porte, facturas.",
           solution:
-            "Automatización de la digitalización y procesamiento de documentos. Reducción inmediata del trabajo manual administrativo.",
+            "Automatización de la digitalización y procesamiento de documentos.",
+          metric: "80%",
+          metricLabel: "menos papel",
         },
       ],
     },
@@ -123,6 +202,16 @@ const dictionaries = {
       subtitle:
         "Precios orientativos por valor aportado. Solicita una propuesta técnica y económica personalizada sin compromiso.",
       vat: "* Todos los precios son sin IVA (21%). Sujeto a condiciones.",
+      comparisonHeading: "Comparativa",
+      comparison: {
+        headers: ["", "Metin Aslan", "Gran Consultora", "Agencia de Marketing", "Hacerlo tú mismo"],
+        rows: [
+          { label: "Coste típico", values: ["Desde 1.500 €", "50.000–100.000 €", "3.000–10.000 €", "Gratis (tu tiempo)"] },
+          { label: "Plazo de entrega", values: ["2-3 semanas", "6-12 meses", "1-3 meses", "Indefinido"] },
+          { label: "IA integrada", values: ["Sí", "Sí (coste elevado)", "Raramente", "Limitada"] },
+          { label: "Enfoque PYME", values: ["Sí", "No", "Parcial", "N/A"] },
+        ],
+      },
       cta: "Solicitar Presupuesto",
       from: "Desde",
       items: [
@@ -176,6 +265,51 @@ const dictionaries = {
       locationValue: "Vallès Occidental, Barcelona",
       availability: "Disponibilidad",
       availabilityValue: "Vallès Occidental, Área Metropolitana de Barcelona y remoto",
+      formName: "Nombre",
+      formEmail: "Email de contacto",
+      formMessage: "Describe brevemente tu situación",
+      formSubmit: "Enviar Consulta",
+      formDisclaimer: "Al enviar, aceptas la política de privacidad.",
+    },
+    faq: {
+      heading: "Preguntas Frecuentes",
+      subtitle: "Resuelve tus dudas antes de contactar.",
+      items: [
+        {
+          question: "¿Qué es la automatización No-Code?",
+          answer: "Es el uso de plataformas visuales (Make, n8n) para conectar tus aplicaciones y automatizar tareas sin escribir código. Es más rápido, más barato y más fácil de mantener que el desarrollo tradicional.",
+        },
+        {
+          question: "¿Cuánto tiempo tarda un proyecto típico?",
+          answer: "Un proyecto de automatización completo se entrega en 2-3 semanas, desde el diagnóstico hasta la puesta en producción. Proyectos más complejos pueden extenderse a 4-6 semanas.",
+        },
+        {
+          question: "¿Necesito conocimientos técnicos?",
+          answer: "No. Las soluciones se construyen sobre herramientas que ya conoces (Gmail, Excel, Google Drive). Incluyo formación para que tu equipo pueda operar de forma autónoma.",
+        },
+        {
+          question: "¿Qué pasa si algo deja de funcionar?",
+          answer: "Ofrezco un servicio de mantenimiento mensual (desde 200 €/mes) que incluye soporte técnico, ajustes y actualizaciones. Además, las plataformas No-Code tienen monitorización integrada.",
+        },
+        {
+          question: "¿Puedo beneficiarme del Kit Digital?",
+          answer: "Sí. Mis servicios están alineados con las categorías subvencionables del programa Kit Digital (fondos Next Generation EU). Te oriento sobre cómo solicitar tu bono digital.",
+        },
+        {
+          question: "¿En qué se diferencia de contratar una consultora grande?",
+          answer: "Las grandes consultoras trabajan con presupuestos mínimos de 50.000–100.000 € y plazos de 6-12 meses. Mi servicio ofrece soluciones equivalentes para PYMES desde 1.500 €, entregadas en semanas.",
+        },
+      ],
+    },
+    resources: {
+      heading: "Recursos y Guías",
+      subtitle: "Artículos prácticos sobre automatización para PYMES.",
+      comingSoon: "Próximamente",
+      items: [
+        { title: "Cómo preparar tu negocio para la factura electrónica obligatoria", tag: "Ley Crea y Crece" },
+        { title: "5 procesos que toda gestoría puede automatizar hoy", tag: "Automatización" },
+        { title: "Kit Digital: guía paso a paso para solicitar tu bono", tag: "Subvenciones" },
+      ],
     },
     footer: {
       rights: "Todos los derechos reservados.",
@@ -226,8 +360,9 @@ const dictionaries = {
       controller: "Responsable",
       dataHeading: "Datos Recopilados",
       dataIntro:
-        "Este sitio web no dispone de formularios de contacto ni cuentas de usuario. La recopilación de datos personales es mínima y se limita a:",
+        "La recopilación de datos personales es mínima y se limita a:",
       dataItems: [
+        "Datos facilitados voluntariamente a través del formulario de contacto de este sitio web (nombre, correo electrónico, mensaje).",
         "Datos facilitados voluntariamente por el usuario al contactar por correo electrónico.",
         "Datos de navegación (dirección IP, tipo de navegador) recopilados automáticamente por el proveedor de alojamiento.",
       ],
@@ -312,17 +447,87 @@ const dictionaries = {
         "Micro-automation can work in any business. I automate administrative processes with AI and No-Code tools. Save 10-15 hours per week without hiring more staff.",
       cta: "View Services",
       ctaSecondary: "Get in Touch",
+      valuePills: [
+        "From €250",
+        "Delivered in 2-3 weeks",
+        "No vendor lock-in",
+      ],
     },
     about: {
       heading: "About Me",
       p1: "I'm Metin Aslan, a consultant specializing in the intersection of finance and technology. I hold a degree in Economics from Koç University and a Master's in Digital Business Transformation from ESEI/UCAM (Spain), with over 5 years of international experience.",
       p2: "My background includes financial auditing at a Big 4 (EY) and managing accounting departments in the UK and USA. This experience allows me to identify critical administrative inefficiencies. Since August 2025 I have been operating as an independent consultant in Spain, developing automation solutions with AI and No-Code tools (n8n, Make, Google Workspace) for SMEs.",
       p3: "I offer agile, affordable micro-automations that democratize access to Artificial Intelligence for small businesses, enabling increased capacity without hiring additional administrative staff.",
+      credentials: [
+        { label: "EY (Ernst & Young)", detail: "Financial Auditing" },
+        { label: "Koç University", detail: "Economics Degree" },
+        { label: "ESEI / UCAM", detail: "Master's in Digital Transformation" },
+        { label: "+5 years", detail: "International Experience (UK, USA, ES)" },
+        { label: "Autonomo in Spain", detail: "Since August 2025" },
+      ],
+    },
+    differentiators: {
+      heading: "Why Choose Me",
+      subtitle: "Four competitive advantages that set my service apart from traditional alternatives.",
+      items: [
+        {
+          title: "No-Code vs Traditional Development",
+          description: "My solutions are delivered in 2-3 weeks, not 6-12 months. The cost is up to 70% lower than custom development because I use No-Code platforms (Make, n8n) instead of custom programming.",
+          stat: "70%",
+          statLabel: "lower cost",
+        },
+        {
+          title: "Integrated Generative AI",
+          description: "Unlike rigid automation (RPA), my solutions incorporate AI models that understand unstructured documents: scanned invoices, emails, handwritten delivery notes.",
+          stat: "AI",
+          statLabel: "generative",
+        },
+        {
+          title: "Hybrid Profile: Business + Technology",
+          description: "Economist, former EY (Big 4) auditor and digital transformation specialist. I understand operational inefficiencies because I've worked inside them.",
+          stat: "Big 4",
+          statLabel: "experience",
+        },
+        {
+          title: "Client Independence",
+          description: "Solutions are built on your own tools (Google Workspace, Excel, your CRM). No vendor lock-in. Everything stays under your control.",
+          stat: "100%",
+          statLabel: "your control",
+        },
+      ],
+    },
+    market: {
+      heading: "The Opportunity in Spain",
+      subtitle: "Spanish SMEs urgently need automation. INE data and new legislation confirm it.",
+      stats: [
+        {
+          value: "2.9M+",
+          label: "companies in Spain are SMEs",
+          detail: "99.8% of the business fabric. 93% are micro-enterprises (<10 employees). Source: INE.",
+        },
+        {
+          value: "12%",
+          label: "of SMEs use AI or Big Data",
+          detail: "The remaining 88% manage their processes manually or with basic tools. Source: ONTSI.",
+        },
+        {
+          value: "31%",
+          label: "have digitized processes",
+          detail: "Nearly 7 out of 10 SMEs still operate with manual or paper-based workflows.",
+        },
+        {
+          value: "2026",
+          label: "e-invoicing mandate",
+          detail: "The Ley Crea y Crece requires all businesses to issue and receive electronic invoices.",
+        },
+      ],
+      footer: "Sources: INE, ONTSI, Ley Crea y Crece (Law 18/2022), DigitalES.",
     },
     services: {
       heading: "Services",
       subtitle:
         "I intervene in your company's daily operations to replace manual and repetitive tasks with automated digital workflows.",
+      targetNote: "Specialized in micro-enterprises (1-9 employees) in Vallès Occidental and Barcelona Metropolitan Area. Priority sectors: logistics, accountancies and professional offices.",
       items: [
         {
           title: "Operational Diagnosis",
@@ -387,27 +592,36 @@ const dictionaries = {
       heading: "Case Studies",
       subtitle:
         "Micro-automation works in any sector. Real examples without company names.",
+      challengeLabel: "Challenge",
+      solutionLabel: "Solution",
+      resultLabel: "Result",
       items: [
         {
           sector: "Accounting firm / Tax advisory",
           challenge:
             "Manual intake of invoices and documents from multiple clients.",
           solution:
-            "System that classifies, extracts data and distributes documents automatically. Hours saved on repetitive tasks.",
+            "System that classifies, extracts data and distributes documents automatically.",
+          metric: "~12h/week",
+          metricLabel: "saved",
         },
         {
           sector: "Furniture restoration workshop",
           challenge:
             "Search for business opportunities and manual quote preparation.",
           solution:
-            "Opportunity search engine and quote automation. Faster response to potential clients.",
+            "Opportunity search engine and quote automation.",
+          metric: "3x",
+          metricLabel: "faster",
         },
         {
           sector: "Logistics & transport company",
           challenge:
             "Paper-intensive flows: delivery notes, waybills, invoices.",
           solution:
-            "Automation of document digitization and processing. Immediate reduction in manual administrative work.",
+            "Automation of document digitization and processing.",
+          metric: "80%",
+          metricLabel: "less paper",
         },
       ],
     },
@@ -416,6 +630,16 @@ const dictionaries = {
       subtitle:
         "Indicative prices based on value delivered. Request a personalized technical and economic proposal with no obligation.",
       vat: "* All prices exclude VAT (21%). Subject to conditions.",
+      comparisonHeading: "Comparison",
+      comparison: {
+        headers: ["", "Metin Aslan", "Big Consultancy", "Marketing Agency", "Do It Yourself"],
+        rows: [
+          { label: "Typical cost", values: ["From €1,500", "€50,000–100,000", "€3,000–10,000", "Free (your time)"] },
+          { label: "Delivery time", values: ["2-3 weeks", "6-12 months", "1-3 months", "Indefinite"] },
+          { label: "AI integrated", values: ["Yes", "Yes (high cost)", "Rarely", "Limited"] },
+          { label: "SME focus", values: ["Yes", "No", "Partial", "N/A"] },
+        ],
+      },
       cta: "Request a Quote",
       from: "From",
       items: [
@@ -469,6 +693,51 @@ const dictionaries = {
       locationValue: "Vallès Occidental, Barcelona",
       availability: "Availability",
       availabilityValue: "Vallès Occidental, Barcelona Metropolitan Area and remote",
+      formName: "Name",
+      formEmail: "Contact email",
+      formMessage: "Briefly describe your situation",
+      formSubmit: "Send Inquiry",
+      formDisclaimer: "By submitting, you accept the privacy policy.",
+    },
+    faq: {
+      heading: "Frequently Asked Questions",
+      subtitle: "Get answers before reaching out.",
+      items: [
+        {
+          question: "What is No-Code automation?",
+          answer: "It's the use of visual platforms (Make, n8n) to connect your applications and automate tasks without writing code. It's faster, cheaper and easier to maintain than traditional development.",
+        },
+        {
+          question: "How long does a typical project take?",
+          answer: "A complete automation project is delivered in 2-3 weeks, from diagnosis to production deployment. More complex projects may extend to 4-6 weeks.",
+        },
+        {
+          question: "Do I need technical knowledge?",
+          answer: "No. Solutions are built on tools you already know (Gmail, Excel, Google Drive). I include training so your team can operate autonomously.",
+        },
+        {
+          question: "What happens if something stops working?",
+          answer: "I offer a monthly maintenance service (from €200/month) that includes technical support, adjustments and updates. Additionally, No-Code platforms have built-in monitoring.",
+        },
+        {
+          question: "Can I benefit from Kit Digital?",
+          answer: "Yes. My services are aligned with the subsidizable categories of the Kit Digital program (Next Generation EU funds). I guide you on how to apply for your digital voucher.",
+        },
+        {
+          question: "How is this different from hiring a big consultancy?",
+          answer: "Large consultancies work with minimum budgets of €50,000–100,000 and timelines of 6-12 months. My service offers equivalent solutions for SMEs from €1,500, delivered in weeks.",
+        },
+      ],
+    },
+    resources: {
+      heading: "Resources & Guides",
+      subtitle: "Practical articles on automation for SMEs.",
+      comingSoon: "Coming soon",
+      items: [
+        { title: "How to prepare your business for mandatory e-invoicing", tag: "Ley Crea y Crece" },
+        { title: "5 processes every accounting firm can automate today", tag: "Automation" },
+        { title: "Kit Digital: step-by-step guide to apply for your voucher", tag: "Grants" },
+      ],
     },
     footer: {
       rights: "All rights reserved.",
@@ -518,8 +787,9 @@ const dictionaries = {
       controller: "Controller",
       dataHeading: "Data Collected",
       dataIntro:
-        "This website does not have contact forms or user accounts. Personal data collection is minimal and limited to:",
+        "Personal data collection is minimal and limited to:",
       dataItems: [
+        "Data voluntarily provided through the contact form on this website (name, email address, message).",
         "Data voluntarily provided by the user when contacting via email.",
         "Navigation data (IP address, browser type) automatically collected by the hosting provider.",
       ],

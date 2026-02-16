@@ -16,6 +16,17 @@ export default function About({ dict }: AboutProps) {
           <p>{dict.about.p2}</p>
           <p>{dict.about.p3}</p>
         </div>
+        <div className="mt-8 flex flex-wrap gap-3">
+          {dict.about.credentials.map((cred) => (
+            <div
+              key={cred.label}
+              className="rounded-lg border border-border bg-card px-4 py-2"
+            >
+              <p className="text-sm font-semibold">{cred.label}</p>
+              <p className="text-xs text-muted">{cred.detail}</p>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );

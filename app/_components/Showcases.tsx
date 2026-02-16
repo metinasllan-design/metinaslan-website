@@ -24,13 +24,26 @@ export default function Showcases({ dict }: ShowcasesProps) {
                 {item.sector}
               </p>
               <p className="mb-3 text-sm text-muted">
-                <span className="font-medium text-foreground">Challenge: </span>
+                <span className="font-medium text-foreground">
+                  {dict.showcases.challengeLabel}:{" "}
+                </span>
                 {item.challenge}
               </p>
               <p className="text-sm leading-relaxed">
-                <span className="font-medium text-foreground">Solution: </span>
+                <span className="font-medium text-foreground">
+                  {dict.showcases.solutionLabel}:{" "}
+                </span>
                 {item.solution}
               </p>
+              <div className="mt-auto border-t border-border pt-4 mt-4">
+                <p className="text-xs font-semibold uppercase tracking-wider text-muted">
+                  {dict.showcases.resultLabel}
+                </p>
+                <p className="text-2xl font-bold text-primary">
+                  {item.metric}
+                </p>
+                <p className="text-xs text-muted">{item.metricLabel}</p>
+              </div>
             </div>
           ))}
         </div>

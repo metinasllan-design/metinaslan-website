@@ -25,9 +25,19 @@ export default function Hero({ dict }: HeroProps) {
         <p className="mb-4 text-xl font-medium text-muted sm:text-2xl">
           {dict.hero.title}
         </p>
-        <p className="mx-auto mb-10 max-w-xl text-lg text-muted">
+        <p className="mx-auto mb-8 max-w-xl text-lg text-muted">
           {dict.hero.tagline}
         </p>
+        <div className="mb-10 flex flex-wrap justify-center gap-3">
+          {dict.hero.valuePills.map((pill) => (
+            <span
+              key={pill}
+              className="rounded-full border border-border bg-card px-4 py-1.5 text-sm font-medium"
+            >
+              {pill}
+            </span>
+          ))}
+        </div>
         <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
           <a
             href="#servicios"

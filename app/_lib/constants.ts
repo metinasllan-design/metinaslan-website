@@ -85,7 +85,7 @@ export const PRICING = [
 export const LEGAL = {
   titular: "Metin Aslan",
   nie: "Z2310369R",
-  domicilio: "C/ Mossèn Camil Rosell, 47 BX 02, 08130 Santa Perpètua de Mogoda, Barcelona",
+  domicilio: "C/ Estruc, 9, 08002 Barcelona",
   email: "metinasllan@gmail.com",
   actividad: "Consultoría de automatización de procesos y transformación digital (CNAE 6202)",
   epigrafeIAE: "833",

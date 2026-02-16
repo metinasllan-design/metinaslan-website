@@ -14,6 +14,43 @@ export default function Contact({ dict }: ContactProps) {
         </h2>
         <p className="mb-10 text-lg text-muted">{dict.contact.subtitle}</p>
 
+        <form
+          action="https://formspree.io/f/mbdayygj"
+          method="POST"
+          className="mx-auto mb-10 max-w-md space-y-4 text-left"
+        >
+          <input
+            type="text"
+            name="name"
+            placeholder={dict.contact.formName}
+            required
+            className="w-full rounded-lg border border-border bg-card p-3 text-sm outline-none transition-colors focus:border-primary"
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder={dict.contact.formEmail}
+            required
+            className="w-full rounded-lg border border-border bg-card p-3 text-sm outline-none transition-colors focus:border-primary"
+          />
+          <textarea
+            name="message"
+            placeholder={dict.contact.formMessage}
+            required
+            rows={4}
+            className="w-full resize-none rounded-lg border border-border bg-card p-3 text-sm outline-none transition-colors focus:border-primary"
+          />
+          <button
+            type="submit"
+            className="inline-flex h-12 w-full items-center justify-center rounded-full bg-primary px-8 font-medium text-primary-foreground transition-opacity hover:opacity-90"
+          >
+            {dict.contact.formSubmit}
+          </button>
+          <p className="text-center text-xs text-muted">
+            {dict.contact.formDisclaimer}
+          </p>
+        </form>
+
         <div className="mx-auto grid max-w-md gap-6">
           <a
             href={`mailto:${SITE_CONFIG.email}`}
