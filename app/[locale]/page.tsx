@@ -3,6 +3,8 @@ import { SITE_CONFIG } from "../_lib/constants";
 import Hero from "../_components/Hero";
 import About from "../_components/About";
 import Services from "../_components/Services";
+import Process from "../_components/Process";
+import Showcases from "../_components/Showcases";
 import Pricing from "../_components/Pricing";
 import Contact from "../_components/Contact";
 
@@ -19,6 +21,8 @@ export default async function Home({
       <Hero dict={dict} />
       <About dict={dict} />
       <Services dict={dict} />
+      <Process dict={dict} />
+      <Showcases dict={dict} />
       <Pricing dict={dict} locale={locale} />
       <Contact dict={dict} />
 

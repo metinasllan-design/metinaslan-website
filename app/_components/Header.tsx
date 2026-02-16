@@ -14,6 +14,8 @@ export default function Header({ dict, locale }: HeaderProps) {
 
   const navLinks = [
     { label: dict.nav.services, href: `/${locale}#servicios` },
+    { label: dict.nav.process, href: `/${locale}#proceso` },
+    { label: dict.nav.showcases, href: `/${locale}#casos` },
     { label: dict.nav.pricing, href: `/${locale}#tarifas` },
     { label: dict.nav.contact, href: `/${locale}#contacto` },
   ];

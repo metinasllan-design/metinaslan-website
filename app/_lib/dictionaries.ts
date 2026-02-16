@@ -6,6 +6,8 @@ const dictionaries = {
   es: {
     nav: {
       services: "Servicios",
+      process: "Proceso",
+      showcases: "Casos",
       pricing: "Tarifas",
       contact: "Contacto",
     },
@@ -14,7 +16,7 @@ const dictionaries = {
       name: "Metin Aslan",
       title: "Consultor de Automatización Digital para PYMES",
       tagline:
-        "Automatizo procesos administrativos de tu negocio con IA y herramientas No-Code. Ahorra 10-15 horas semanales sin contratar más personal.",
+        "La micro-automatización puede aplicarse en cualquier negocio. Automatizo procesos administrativos con IA y No-Code. Ahorra 10-15 horas semanales sin contratar más personal.",
       cta: "Ver Servicios",
       ctaSecondary: "Contactar",
     },
@@ -48,6 +50,71 @@ const dictionaries = {
           title: "Formación y Acompañamiento",
           description:
             "Capacitación directa a tu equipo para que puedan operar con las nuevas herramientas digitales de forma autónoma. Las soluciones permanecen bajo tu control.",
+        },
+      ],
+    },
+    process: {
+      heading: "Cómo Trabajo",
+      subtitle:
+        "Metodología en 5 fases para garantizar calidad y plazos en cada proyecto.",
+      phases: [
+        {
+          number: "01",
+          title: "Diagnóstico y Consultoría Inicial",
+          description:
+            "Reunión para entender tus puntos de dolor. Análisis de herramientas actuales. Propuesta técnica y económica detallada.",
+        },
+        {
+          number: "02",
+          title: "Diseño de la Arquitectura",
+          description:
+            "Diagrama de flujo de la automatización. Selección de herramientas No-Code (Make, n8n). Definición de especificaciones.",
+        },
+        {
+          number: "03",
+          title: "Desarrollo e Integración",
+          description:
+            "Configuración de escenarios. Conexión de APIs entre tus aplicaciones. Pruebas unitarias de flujos de datos.",
+        },
+        {
+          number: "04",
+          title: "Testing y Despliegue",
+          description:
+            "Ejecución en entorno de pruebas con datos reales. Ajuste de modelos de IA. Puesta en producción (Go Live).",
+        },
+        {
+          number: "05",
+          title: "Formación y Entrega",
+          description:
+            "Capacitación a tu equipo. Documentación técnica y manual de usuario. Inicio del periodo de garantía.",
+        },
+      ],
+    },
+    showcases: {
+      heading: "Casos de Éxito",
+      subtitle:
+        "La micro-automatización funciona en cualquier sector. Ejemplos reales sin nombres de empresa.",
+      items: [
+        {
+          sector: "Gestoría / Asesoría fiscal",
+          challenge:
+            "Ingesta manual de facturas y documentos de múltiples clientes.",
+          solution:
+            "Sistema que clasifica, extrae datos y distribuye documentos automáticamente. Ahorro de horas en tareas repetitivas.",
+        },
+        {
+          sector: "Taller de restauración de muebles",
+          challenge:
+            "Búsqueda de oportunidades comerciales y elaboración manual de presupuestos.",
+          solution:
+            "Motor de búsqueda de oportunidades y automatización de presupuestos. Respuesta más rápida a clientes potenciales.",
+        },
+        {
+          sector: "Empresa de logística y transporte",
+          challenge:
+            "Flujos intensivos de papel: albaranes, cartas de porte, facturas.",
+          solution:
+            "Automatización de la digitalización y procesamiento de documentos. Reducción inmediata del trabajo manual administrativo.",
         },
       ],
     },
@@ -232,6 +299,8 @@ const dictionaries = {
   en: {
     nav: {
       services: "Services",
+      process: "Process",
+      showcases: "Cases",
       pricing: "Pricing",
       contact: "Contact",
     },
@@ -240,7 +309,7 @@ const dictionaries = {
       name: "Metin Aslan",
       title: "Digital Automation Consultant for SMEs",
       tagline:
-        "I automate your business administrative processes with AI and No-Code tools. Save 10-15 hours per week without hiring more staff.",
+        "Micro-automation can work in any business. I automate administrative processes with AI and No-Code tools. Save 10-15 hours per week without hiring more staff.",
       cta: "View Services",
       ctaSecondary: "Get in Touch",
     },
@@ -274,6 +343,71 @@ const dictionaries = {
           title: "Training & Support",
           description:
             "Direct training for your team to operate the new digital tools autonomously. Solutions remain under your control.",
+        },
+      ],
+    },
+    process: {
+      heading: "How I Work",
+      subtitle:
+        "5-phase methodology to ensure quality and deadlines on every project.",
+      phases: [
+        {
+          number: "01",
+          title: "Diagnosis & Initial Consulting",
+          description:
+            "Meeting to understand your pain points. Analysis of current tools. Detailed technical and economic proposal.",
+        },
+        {
+          number: "02",
+          title: "Architecture Design",
+          description:
+            "Automation flow diagram. Selection of No-Code tools (Make, n8n). Specification definition.",
+        },
+        {
+          number: "03",
+          title: "Development & Integration",
+          description:
+            "Scenario configuration. API connections between your applications. Unit testing of data flows.",
+        },
+        {
+          number: "04",
+          title: "Testing & Deployment",
+          description:
+            "Execution in test environment with real data. AI model tuning. Production deployment (Go Live).",
+        },
+        {
+          number: "05",
+          title: "Training & Handover",
+          description:
+            "Team training. Technical documentation and user manual. Warranty period begins.",
+        },
+      ],
+    },
+    showcases: {
+      heading: "Case Studies",
+      subtitle:
+        "Micro-automation works in any sector. Real examples without company names.",
+      items: [
+        {
+          sector: "Accounting firm / Tax advisory",
+          challenge:
+            "Manual intake of invoices and documents from multiple clients.",
+          solution:
+            "System that classifies, extracts data and distributes documents automatically. Hours saved on repetitive tasks.",
+        },
+        {
+          sector: "Furniture restoration workshop",
+          challenge:
+            "Search for business opportunities and manual quote preparation.",
+          solution:
+            "Opportunity search engine and quote automation. Faster response to potential clients.",
+        },
+        {
+          sector: "Logistics & transport company",
+          challenge:
+            "Paper-intensive flows: delivery notes, waybills, invoices.",
+          solution:
+            "Automation of document digitization and processing. Immediate reduction in manual administrative work.",
         },
       ],
     },

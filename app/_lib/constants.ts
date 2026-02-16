@@ -2,7 +2,7 @@ export const SITE_CONFIG = {
   name: "Metin Aslan",
   title: "Consultor de Automatización Digital para PYMES",
   tagline:
-    "Automatizo procesos administrativos de tu negocio con IA y herramientas No-Code. Ahorra 10-15 horas semanales sin contratar más personal.",
+    "La micro-automatización puede aplicarse en cualquier negocio. Automatizo procesos administrativos con IA y No-Code. Ahorra 10-15 horas semanales sin contratar más personal.",
   email: "metinasllan@gmail.com",
   location: "Vallès Occidental, Barcelona",
   url: "https://metinaslan.com",
