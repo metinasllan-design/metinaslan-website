@@ -39,9 +39,9 @@ export default function Header({ dict, locale }: HeaderProps) {
           ))}
           <a
             href={`/${otherLocale}`}
-            className="rounded-md border border-border px-3 py-1 text-xs font-semibold uppercase tracking-wider text-muted transition-colors hover:text-foreground"
+            className="rounded-full bg-foreground px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-background transition-opacity hover:opacity-80"
           >
-            {otherLocale}
+            {otherLocale === "es" ? "ES" : "EN"}
           </a>
         </div>
 
@@ -79,7 +79,7 @@ export default function Header({ dict, locale }: HeaderProps) {
             <li>
               <a
                 href={`/${otherLocale}`}
-                className="block py-3 text-sm font-semibold uppercase tracking-wider text-muted transition-colors hover:text-foreground"
+                className="mt-2 inline-block rounded-full bg-foreground px-4 py-1.5 text-sm font-semibold uppercase tracking-wider text-background transition-opacity hover:opacity-80"
               >
                 {otherLocale === "es" ? "Español" : "English"}
               </a>

@@ -97,7 +97,7 @@ const dictionaries = {
     services: {
       heading: "Servicios",
       subtitle:
-        "Intervengo en la operativa diaria de tu empresa para sustituir tareas manuales y repetitivas por flujos de trabajo digitales automatizados.",
+        "Intervengo en la operativa diaria para sustituir tareas manuales por flujos digitales automatizados, asegurando la adaptación a la Factura Electrónica Obligatoria.",
       targetNote: "Especializado en microempresas (1-9 empleados) del Vallès Occidental y Área Metropolitana de Barcelona. Sectores prioritarios: logística, gestorías y despachos profesionales.",
       items: [
         {
@@ -123,9 +123,9 @@ const dictionaries = {
       ],
     },
     process: {
-      heading: "Cómo Trabajo",
+      heading: "Metodología",
       subtitle:
-        "Metodología en 5 fases para garantizar calidad y plazos en cada proyecto.",
+        "Enfoque estructurado para garantizar la calidad y el cumplimiento normativo (Ley Crea y Crece).",
       phases: [
         {
           number: "01",
@@ -168,7 +168,7 @@ const dictionaries = {
       resultLabel: "Resultado",
       items: [
         {
-          sector: "Servicios Fiscales (EE.UU.)",
+          sector: "Servicios Fiscales",
           challenge:
             "Preparación manual de declaraciones de impuestos y conversión de datos.",
           solution:
@@ -177,7 +177,7 @@ const dictionaries = {
           metricLabel: "automatizado",
         },
         {
-          sector: "Consultoría (Turquía)",
+          sector: "Consultoría",
           challenge:
             "Seguimiento manual de reuniones con clientes y recordatorios.",
           solution:
@@ -186,12 +186,12 @@ const dictionaries = {
           metricLabel: "olvidos",
         },
         {
-          sector: "Restauración de Muebles (BCN)",
+          sector: "Restauración de Muebles",
           challenge:
             "Búsqueda manual de clientes y demanda en el mercado.",
           solution:
             "Agente de IA que rastrea la demanda online y envía alertas de clientes potenciales por email.",
-          metric: "Lead Gen",
+          metric: "Generación de Leads",
           metricLabel: "automático",
         },
       ],
@@ -524,7 +524,7 @@ const dictionaries = {
     services: {
       heading: "Services",
       subtitle:
-        "I intervene in your company's daily operations to replace manual and repetitive tasks with automated digital workflows.",
+        "I intervene in daily operations to replace manual tasks with automated digital workflows, ensuring adaptation to Mandatory Electronic Invoicing.",
       targetNote: "Specialized in micro-enterprises (1-9 employees) in Vallès Occidental and Barcelona Metropolitan Area. Priority sectors: logistics, accountancies and professional offices.",
       items: [
         {
@@ -550,9 +550,9 @@ const dictionaries = {
       ],
     },
     process: {
-      heading: "How I Work",
+      heading: "Methodology",
       subtitle:
-        "5-phase methodology to ensure quality and deadlines on every project.",
+        "Structured approach to ensure quality and regulatory compliance (Ley Crea y Crece).",
       phases: [
         {
           number: "01",
@@ -595,7 +595,7 @@ const dictionaries = {
       resultLabel: "Result",
       items: [
         {
-          sector: "Tax Services (USA)",
+          sector: "Tax Services",
           challenge:
             "Manual preparation of tax returns and data conversion.",
           solution:
@@ -604,7 +604,7 @@ const dictionaries = {
           metricLabel: "automated",
         },
         {
-          sector: "Consulting (Turkey)",
+          sector: "Consulting",
           challenge:
             "Manual tracking of client meetings and follow-up reminders.",
           solution:
@@ -613,12 +613,12 @@ const dictionaries = {
           metricLabel: "missed follow-ups",
         },
         {
-          sector: "Furniture Restoration (BCN)",
+          sector: "Furniture Restoration",
           challenge:
             "Manual search for clients and market demand.",
           solution:
             "AI agent that tracks online demand and sends email alerts for potential clients.",
-          metric: "Lead Gen",
+          metric: "Lead Generation",
           metricLabel: "automated",
         },
       ],
