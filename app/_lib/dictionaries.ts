@@ -16,7 +16,7 @@ const dictionaries = {
       name: "Metin Aslan",
       title: "Consultor de Automatización Digital para PYMES",
       tagline:
-        "La micro-automatización puede aplicarse en cualquier negocio. Automatizo procesos administrativos con IA y No-Code. Ahorra 10-15 horas semanales sin contratar más personal.",
+        "La micro-automatización puede aplicarse en cualquier negocio. Automatizo procesos administrativos con IA y No-Code a una fracción del coste tradicional. Ahorra 10-15 horas semanales sin contratar más personal.",
       cta: "Ver Servicios",
       ctaSecondary: "Contactar",
       valuePills: [
@@ -443,7 +443,7 @@ const dictionaries = {
       name: "Metin Aslan",
       title: "Digital Automation Consultant for SMEs",
       tagline:
-        "Micro-automation can work in any business. I automate administrative processes with AI and No-Code tools. Save 10-15 hours per week without hiring more staff.",
+        "Micro-automation can work in any business. I automate administrative processes with AI and No-Code at a fraction of the traditional cost. Save 10-15 hours per week without hiring more staff.",
       cta: "View Services",
       ctaSecondary: "Get in Touch",
       valuePills: [
