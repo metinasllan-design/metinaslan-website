@@ -16,13 +16,13 @@ const dictionaries = {
       name: "Metin Aslan",
       title: "Consultor de Automatización Digital para PYMES",
       tagline:
-        "La micro-automatización puede aplicarse en cualquier negocio. Automatizo procesos administrativos con IA y No-Code a una fracción del coste tradicional. Ahorra 10-15 horas semanales sin contratar más personal.",
+        "La micro-automatización puede aplicarse en cualquier negocio. Automatizo procesos administrativos con IA y No-Code a una fracción del coste tradicional, con garantía contractual de mantenimiento. Ahorra 10-15 horas semanales sin contratar más personal.",
       cta: "Ver Servicios",
       ctaSecondary: "Contactar",
       valuePills: [
         "Desde 250 €",
         "Entrega en 2-3 semanas",
-        "Sin dependencia tecnológica",
+        "Garantía de mantenimiento",
       ],
     },
     about: {
@@ -208,6 +208,7 @@ const dictionaries = {
           { label: "Coste típico", values: ["Desde 1.500 €", "50.000–100.000 €", "3.000–10.000 €", "Gratis (tu tiempo)"] },
           { label: "Plazo de entrega", values: ["2-3 semanas", "6-12 meses", "1-3 meses", "Indefinido"] },
           { label: "IA integrada", values: ["Sí", "Sí (coste elevado)", "Raramente", "Limitada"] },
+          { label: "Garantía de mantenimiento", values: ["Sí, contractual", "Variable", "No", "No"] },
           { label: "Enfoque PYME", values: ["Sí", "No", "Parcial", "N/A"] },
         ],
       },
@@ -237,7 +238,7 @@ const dictionaries = {
             "Arquitectura No-Code",
             "Integración con tus herramientas",
             "Despliegue y pruebas",
-            "Documentación básica",
+            "Garantía de mantenimiento incluida",
           ],
           highlighted: true,
         },
@@ -288,7 +289,7 @@ const dictionaries = {
         },
         {
           question: "¿Qué pasa si algo deja de funcionar?",
-          answer: "Ofrezco un servicio de mantenimiento mensual (desde 200 €/mes) que incluye soporte técnico, ajustes y actualizaciones. Además, las plataformas No-Code tienen monitorización integrada.",
+          answer: "Todos mis proyectos incluyen una garantía contractual de mantenimiento. No entrego la solución y desaparezco: me compromiso por contrato a garantizar su correcto funcionamiento. Además, ofrezco un servicio de mantenimiento mensual (desde 200 €/mes) con soporte técnico, ajustes y actualizaciones.",
         },
         {
           question: "¿Puedo beneficiarme del Kit Digital?",
@@ -340,6 +341,7 @@ const dictionaries = {
         "Todos los precios indicados son sin IVA. Se aplicará el tipo impositivo vigente (actualmente 21%).",
         "El plazo de entrega se establecerá en cada presupuesto individualizado.",
         "El cliente tendrá derecho a solicitar revisiones razonables dentro del alcance acordado del proyecto.",
+        "Todos los proyectos incluyen un periodo de garantía de mantenimiento. El alcance y la duración se especificarán en el presupuesto correspondiente.",
       ],
       ipHeading: "Propiedad Intelectual",
       ipText:
@@ -443,13 +445,13 @@ const dictionaries = {
       name: "Metin Aslan",
       title: "Digital Automation Consultant for SMEs",
       tagline:
-        "Micro-automation can work in any business. I automate administrative processes with AI and No-Code at a fraction of the traditional cost. Save 10-15 hours per week without hiring more staff.",
+        "Micro-automation can work in any business. I automate administrative processes with AI and No-Code at a fraction of the traditional cost, with a contractual maintenance guarantee. Save 10-15 hours per week without hiring more staff.",
       cta: "View Services",
       ctaSecondary: "Get in Touch",
       valuePills: [
         "From €250",
         "Delivered in 2-3 weeks",
-        "No vendor lock-in",
+        "Maintenance guaranteed",
       ],
     },
     about: {
@@ -635,6 +637,7 @@ const dictionaries = {
           { label: "Typical cost", values: ["From €1,500", "€50,000–100,000", "€3,000–10,000", "Free (your time)"] },
           { label: "Delivery time", values: ["2-3 weeks", "6-12 months", "1-3 months", "Indefinite"] },
           { label: "AI integrated", values: ["Yes", "Yes (high cost)", "Rarely", "Limited"] },
+          { label: "Maintenance guarantee", values: ["Yes, contractual", "Varies", "No", "No"] },
           { label: "SME focus", values: ["Yes", "No", "Partial", "N/A"] },
         ],
       },
@@ -664,7 +667,7 @@ const dictionaries = {
             "No-Code architecture",
             "Integration with your tools",
             "Deployment and testing",
-            "Basic documentation",
+            "Maintenance guarantee included",
           ],
           highlighted: true,
         },
@@ -715,7 +718,7 @@ const dictionaries = {
         },
         {
           question: "What happens if something stops working?",
-          answer: "I offer a monthly maintenance service (from €200/month) that includes technical support, adjustments and updates. Additionally, No-Code platforms have built-in monitoring.",
+          answer: "Every project includes a contractual maintenance guarantee. I don't deliver the solution and disappear: I commit by contract to ensure it works correctly. Additionally, I offer a monthly maintenance service (from €200/month) with technical support, adjustments and updates.",
         },
         {
           question: "Can I benefit from Kit Digital?",
@@ -766,6 +769,7 @@ const dictionaries = {
         "All prices shown exclude VAT. The current applicable rate (21%) will be applied.",
         "The delivery timeline will be established in each individual quotation.",
         "The client is entitled to request reasonable revisions within the agreed scope of the project.",
+        "All projects include a maintenance guarantee period. The scope and duration will be specified in the corresponding quotation.",
       ],
       ipHeading: "Intellectual Property",
       ipText:
